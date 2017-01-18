@@ -1,0 +1,12 @@
+tm_stm32f0_usart.c:
+	-304- SR promijenjeno u ISR
+	-356- DR promijenjeno u TDR
+	-442- Izbrisano sub i premtion priority.. Postavljen prioritet na 0x00
+
+
+tm_stm32f0_gpio.c:
+	-302 i 311- BSRR registar
+	-191 i 197- uint32_t pom = 0x00020000;
+
+tm_stm32f0_spi.c:
+	-98- APB_Frequency = RCC_Clocks.PCLK_Frequency;
